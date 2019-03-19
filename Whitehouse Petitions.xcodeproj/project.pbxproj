@@ -13,6 +13,9 @@
 		BAF1346222419C610060DAE2 /* Whitehouse_Petitions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAF1346022419C610060DAE2 /* Whitehouse_Petitions.xcdatamodeld */; };
 		BAF1346422419C620060DAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF1346322419C620060DAE2 /* Assets.xcassets */; };
 		BAF1346722419C620060DAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF1346522419C620060DAE2 /* LaunchScreen.storyboard */; };
+		BAF1346F22419F170060DAE2 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1346E22419F170060DAE2 /* Petition.swift */; };
+		BAF1347122419F7A0060DAE2 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1347022419F7A0060DAE2 /* Petitions.swift */; };
+		BAF134732241A2910060DAE2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF134722241A2910060DAE2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BAF1346322419C620060DAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF1346622419C620060DAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAF1346822419C620060DAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF1346E22419F170060DAE2 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		BAF1347022419F7A0060DAE2 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		BAF134722241A2910060DAE2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				BAF1345922419C610060DAE2 /* AppDelegate.swift */,
 				BAF1345B22419C610060DAE2 /* ViewController.swift */,
+				BAF134722241A2910060DAE2 /* DetailViewController.swift */,
+				BAF1346E22419F170060DAE2 /* Petition.swift */,
+				BAF1347022419F7A0060DAE2 /* Petitions.swift */,
 				BAF1345D22419C610060DAE2 /* Main.storyboard */,
 				BAF1346322419C620060DAE2 /* Assets.xcassets */,
 				BAF1346522419C620060DAE2 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF1346222419C610060DAE2 /* Whitehouse_Petitions.xcdatamodeld in Sources */,
+				BAF1346F22419F170060DAE2 /* Petition.swift in Sources */,
 				BAF1345C22419C610060DAE2 /* ViewController.swift in Sources */,
+				BAF134732241A2910060DAE2 /* DetailViewController.swift in Sources */,
 				BAF1345A22419C610060DAE2 /* AppDelegate.swift in Sources */,
+				BAF1347122419F7A0060DAE2 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
